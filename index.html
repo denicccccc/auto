@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Lazy Loading Images</title>
+  <link rel="stylesheet" href="css/styles.scss">
+</head>
+<body>
+  <h1>Ліниве завантаження зображень</h1>
+  <p>Прокрути сторінку вниз, щоб побачити як зображення підвантажуються тільки тоді, коли вони стають видимими.</p>
+
+  <!-- Зображення-заглушки з data-src -->
+  <img data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHUmuSncpHgzseXyIlk29IKVwjG8JPgQSujw&s" alt="Image 1">
+  <img data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrjxpQgClKys-QPI_kRzJ9sVC4MV8lkLdiyg&s" alt="Image 2">
+  <img data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGC8HuDR7yO3bS28cGOLMIpZEpu7bnyx50-g&s" alt="Image 3">
+  <img data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE-W1Idm_96AG4Ebozz4YP-sQCM6_eTFK8cw&s" alt="Image 4">
+  <img data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX5uNpaAIcudg-OtX-tzFU_VkTrsHMUzxLSg&s" alt="Image 5">
+
+  <!-- Кнопка для завантаження вручну -->
+  <button id="load-images">Завантажити всі зараз</button>
+
+  <script src="js/auto.js"></script>
+</body>
+</html>

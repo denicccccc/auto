@@ -1,0 +1,25 @@
+/* Мінімальна висота і фон */
+img {
+  height: 200px;
+  width: 100%;
+  display: block;
+  margin: 20px 0;
+  background-color: #f0f0f0;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out; /* плавна поява */
+}
+
+/* Коли зображення завантажилось */
+img.loaded {
+  opacity: 1;
+}
+
+/* Кнопка */
+#load-images {
+  display: block;
+  margin: 40px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
